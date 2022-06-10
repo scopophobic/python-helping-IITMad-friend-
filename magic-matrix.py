@@ -1,8 +1,8 @@
-//better version
+#last commit was wrong, i promise this one's good
 
 def is_magic(n):
     matrix = []
-    for i in range(2):
+    for i in range(n):
         row = list(map(int, input().split()))
         matrix.append(row)
 
