@@ -1,12 +1,14 @@
 #last commit was wrong, i promise this one's good
 
+#okay promise, this one will work
+
 def is_magic(n):
-    matrix = []
-    for i in range(n):
-        row = list(map(int, input().split()))
-        matrix.append(row)
-
-
+    def is_magic(n):
+        matrix = []
+        for i in range(n):
+            row = list(map(int, input().split()))
+            matrix.append(row)
+    
     sumd1=0
     sumd2=0
     for i in range(n):
@@ -29,6 +31,7 @@ def is_magic(n):
 
 
 n=int(input())
-if(is_magic(n)==True):
-
-
+if (is_magic(n)):
+    print("YES")
+else:
+    print("NO")
